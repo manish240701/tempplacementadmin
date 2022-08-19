@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"]:focus {
+  border-color: rgba(244, 74, 99, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(241, 81, 105, 0.8);
+  outline: 0 none;
+}
+
+
+.header {
+  font-weight: 800;
+  color: rgb(0, 0, 47);
+  font-size: 18px !important;
+}
+
+.paragraph {
+  text-align: justify;
+  color: rgb(59, 59, 59);
+  font-size: 17px;
+}

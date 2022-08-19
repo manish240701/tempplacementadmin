@@ -1,0 +1,51 @@
+.form-input{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: black;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 2px;
+}
+
+.form-input:focus{
+    border-color: none !important;
+    box-shadow: none !important;
+    background-color: rgb(243, 243, 243);
+    outline: none !important;
+}
+.form-input::placeholder{
+    color: rgb(34, 34, 34);
+}
+
+.form-label{
+    margin-left: 5%;
+    font-weight: 600;
+    line-height: 1px;
+    color: rgb(59, 59, 59);
+}
+
+.form-btn{
+    padding: 7px 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.primary-btn{
+    border:1px solid rgb(3, 0, 61);
+    background-color: rgb(3, 0, 61);
+    color: white;
+}
+
+.secondary-btn{
+    border:1px solid black;
+    color: rgb(0, 0, 0);
+}
+
+.form-btn:hover{
+    transform: scale(1.03);
+    transition: 0.3s all ease ;
+    border-color: rgb(57, 57, 57);
+}

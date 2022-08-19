@@ -1,0 +1,17 @@
+.admin-add-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  cursor: pointer;
+  animation: pulse-animation 2s infinite;
+  border-radius: 50%;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(34, 3, 187, 0.503);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(2, 54, 166, 0);
+  }
+}
