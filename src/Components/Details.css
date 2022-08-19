@@ -1,0 +1,59 @@
+.details-container{
+    background-color: white;
+    padding: 3% 10%;
+}
+
+/* table */
+th,td{
+    padding: 5px 0;
+}
+
+
+.table-head{
+    font-weight: bold;
+}
+
+.table-data{
+    padding-left: 50px;
+    color: black;
+}
+
+/* domains */
+
+.domains-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.domains-individual-container{
+    background: url("../assets/img2.jpg") ;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+/* download btn */
+.download-btn{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: white;
+    background:url("../assets/img3.webp");
+    background-size: cover;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0), 0 0 40px rgba(0, 46, 86, 0.285);
+}
+
+.download-btn>span{
+    background-color: rgba(0, 0, 0, 0.21);
+}
+
+@media only screen and (max-width:600px)
+{
+    .details-container{
+        padding: 10% 7%;
+    }
+}

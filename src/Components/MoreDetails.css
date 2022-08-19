@@ -1,0 +1,12 @@
+.more-details-container{
+    background-color: rgb(234, 234, 234);
+    padding: 3% 10%;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .more-details-container{
+        padding: 10% 7%;
+    }
+}

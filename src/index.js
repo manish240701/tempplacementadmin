@@ -1,11 +1,12 @@
 //dependencies
-import React from "react"
-import  ReactDOM  from "react-dom"
+import React from "react";
+import ReactDOM from "react-dom";
 
 //components
-import Home from "./pages/Home";
+import Home from "./Pages/Home"
 
 //css
-import "./Index.css"
+import "./index.css"
 
-ReactDOM.render(<Home/>,document.getElementById("root"));
+//code
+ReactDOM.render(<Home/>,document.getElementById("root"))
